@@ -928,117 +928,117 @@ footer ul {
 /* -----------------------------version desktop-------------------------------*/
 
 @media (min-width: 1025px) {
-    /* ------------------------- centrer le site à 85% de la page sauf footer -----------------*/
-  
-    .site-entier {
-      width: 85%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  
-    /* -------------------------------- menu de navigation -------------------------*/
-    .menu {
-      display: flex;
-      border-bottom: 1px solid white;
-      font-size: 1rem;
-    }
-  
-    .menu1:hover,
-    .menu2:hover {
-      border-top: 3px solid #0065fc;
-      border-bottom: 0;
-      color: var(--main-bg-blue);
-    }
-  
-    .menu1,
-    .menu2 {
-      width: 50%;
-      height: 100%;
-    }
-  
-    .menu1 {
-      margin-left: 350px;
-    }
-  
-    .menu2 {
-      margin-left: 130px;
-    }
-  
-    ul.menu {
-      margin-bottom: 3%;
-    }
-  
-    /* ----------------------- titre h1----------------------------------*/
-  
-    h1 {
-      font-size: large;
-    }
-  
-    /* ---------------------------------- icone loupe --------------------------------*/
-  
-    .fa-search {
-      display: none;
-    }
-  
-    /* ----------------------------inversion mot rechercher -------------------------------*/
-  
-    .blue-button::after {
-      content: " Rechercher";
-      color: white;
-      font-size: 1.1rem;
-    }
-  
-    /* ------------------------------------ bouton bleu -------------------------------*/
-  
-    .flexForm button {
-      width: 155px;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-    }
-  
-    /* ------------------------------ barre recherche -----------------------------*/
-  
-    .flexForm {
-      max-width: 400px;
-    }
-    /* -------------------------------filtre -------------------------*/
-  
-    .filtre {
-      display: flex;
-      max-width: 706px;
-    }
-    /* ----------------------- h3 : 1er fitlre ------------------------------------*/
-  
-    h3 {
-      margin-top: 14px;
-      margin-right: 12px;
-    }
-  
-    /* --------------------------------- tous les filtres sauf le 1er ------------------------------*/
-  
-    .filtre button:nth-child(2),
-    .filtre button:nth-child(3),
-    .filtre button:nth-child(4) {
-      margin-right: 10px;
-      padding-right: 15px;
-    }
-  
-    .filtre button:nth-child(5) {
-      padding-right: 20px;
-      min-width: 190px;
-    }
-  
-    /* ---------------------------- icone info --------------------------*/
-  
-    .fa-info {
-      align-self: center;
-    }
-    .fa-info + h5 {
-      font-weight: normal;
-    }
-/* ------------------------------ LA boite hébergements à marseille et les plus populaires ----------------------*/
+  /* ------------------------- centrer le site à 85% de la page sauf footer -----------------*/
 
-.box-heberg-marseille-et-populaires {
+  .site-entier {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* -------------------------------- menu de navigation -------------------------*/
+  .menu {
+    display: flex;
+    border-bottom: 1px solid white;
+    font-size: 1rem;
+  }
+
+  .menu1:hover,
+  .menu2:hover {
+    border-top: 3px solid #0065fc;
+    border-bottom: 0;
+    color: var(--main-bg-blue);
+  }
+
+  .menu1,
+  .menu2 {
+    width: 50%;
+    height: 100%;
+  }
+
+  .menu1 {
+    margin-left: 350px;
+  }
+
+  .menu2 {
+    margin-left: 130px;
+  }
+
+  ul.menu {
+    margin-bottom: 3%;
+  }
+
+  /* ----------------------- titre h1----------------------------------*/
+
+  h1 {
+    font-size: large;
+  }
+
+  /* ---------------------------------- icone loupe --------------------------------*/
+
+  .fa-search {
+    display: none;
+  }
+
+  /* ----------------------------inversion mot rechercher -------------------------------*/
+
+  .blue-button::after {
+    content: " Rechercher";
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  /* ------------------------------------ bouton bleu -------------------------------*/
+
+  .flexForm button {
+    width: 155px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  /* ------------------------------ barre recherche -----------------------------*/
+
+  .flexForm {
+    max-width: 400px;
+  }
+  /* -------------------------------filtre -------------------------*/
+
+  .filtre {
+    display: flex;
+    max-width: 706px;
+  }
+  /* ----------------------- h3 : 1er fitlre ------------------------------------*/
+
+  h3 {
+    margin-top: 14px;
+    margin-right: 12px;
+  }
+
+  /* --------------------------------- tous les filtres sauf le 1er ------------------------------*/
+
+  .filtre button:nth-child(2),
+  .filtre button:nth-child(3),
+  .filtre button:nth-child(4) {
+    margin-right: 10px;
+    padding-right: 15px;
+  }
+
+  .filtre button:nth-child(5) {
+    padding-right: 20px;
+    min-width: 190px;
+  }
+
+  /* ---------------------------- icone info --------------------------*/
+
+  .fa-info {
+    align-self: center;
+  }
+  .fa-info + h5 {
+    font-weight: normal;
+  }
+  /* ------------------------------ LA boite hébergements à marseille et les plus populaires ----------------------*/
+
+  .box-heberg-marseille-et-populaires {
     flex-direction: row;
     width: 100%;
   }
@@ -1127,4 +1127,73 @@ footer ul {
   .starline-populaire3 {
     padding-top: 40px;
   }
-  
+  /* --------------------------activités à marseille-----------------------------*/
+
+  /* ----------------------------- titre principal activités -----------------------------*/
+
+  .titre-principal-activites {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  /* --------------------------------- boite activités à marseille --------------------------*/
+
+  .child3 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  /* ---------------------------- première et quatrième photo ---------------------------------------*/
+
+  .vieux-port,
+  .calanques {
+    width: 300px;
+    height: 463px;
+  }
+
+  .image-vieux-port,
+  .image-calanques {
+    width: 300px;
+    height: 412px;
+  }
+
+  /* -------------------------- le reste des photos -------------------------------*/
+
+  .fort-pomegues,
+  .iles-frioul,
+  .dame-garde,
+  .parc-longchamp {
+    width: 300px;
+    height: 220px;
+  }
+
+  .image-pomegues,
+  .image-iles-frioul,
+  .image-dame-garde,
+  .image-parc-longchamp {
+    width: 300px;
+    height: 170px;
+  }
+
+  /* -------------------------------------footer---------------------------------*/
+
+  /* --------------------------------- boite footer --------------------------------*/
+
+  .child4 {
+    display: flex;
+  }
+
+  /* ----------------------------- les  3 boites---------------------------------*/
+
+  .box-a-propos {
+    margin-left: 4%;
+  }
+
+  .box-nos-hebergements,
+  .box-assistance {
+    margin-left: 20%;
+  }
+}
