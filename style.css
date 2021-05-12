@@ -308,3 +308,285 @@ h1 + p {
   color: var(--main-bg-blue);
   align-self: flex-start;
 }
+/* -------------------------------(inversement des boites "les plus populaires" et "hébergements à marseille")---------------------- */
+
+.box-heberg-marseille-et-populaires {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* -------------------------------------------- les plus populaires -----------------------------*/
+
+/* ---------------------------------(les 3 photos les plus populaires )--------------------------------- */
+
+.ensemble-3-photos {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------------------------------(boite les plus populaires)--------------------------*/
+
+.boite-les-plus-populaires {
+  background-color: #f2f2f2;
+  margin-top: 20px;
+}
+
+/* ---------------------------------------------(titre populaire et titre& icône)------------------------------*/
+
+.titre-populaire {
+  margin-left: 2%;
+  font-size: large;
+}
+
+.titre-et-icone {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+}
+
+#progress {
+  margin-left: 80%;
+}
+
+/*-------------------------(hover)---------------------- */
+
+.lien7:hover,
+.lien8:hover,
+.lien9:hover {
+  transition: 0.3s;
+  color: #0065fc;
+}
+
+/* ------------------------ensemble photo et texte----------------------------*/
+
+.hotel-soleil-du-matin,
+.hotel-au-coeur-eau,
+.hotel-bleu-blanc {
+  width: 300px;
+  height: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: white;
+  border: 5px solid white;
+  box-shadow: 5px 5px 5px#f2f2f2;
+}
+
+/* ----------------------------------------(marge de la 1ère photo)-----------------*/
+
+.hotel-soleil-du-matin {
+  margin-top: 20px;
+}
+
+/* --------------------------(images)-----------------------------*/
+
+.image-soleil-du-matin,
+.image-au-coeur-eau,
+.image-bleu-blanc {
+  width: 150px;
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+/* -------------------------(texte à droite) ------------------*/
+
+.box1,
+.box2,
+.box3 {
+  padding-left: 10px;
+  padding-top: 15px;
+  width: 150px;
+}
+
+/* -----------------(a href ensemble photo et texte)--------------------*/
+
+.lien7,
+.lien8,
+.lien9 {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+/* -------------------(titres et soutitres )---------------------------*/
+
+.titres-stars1,
+.titres-stars2,
+.titres-stars3 {
+  width: auto;
+  height: 140px;
+}
+
+.sous-titrepopulaire1,
+.soustitre-populaire2,
+.soustitre-populaire3 {
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+/* ---------------------------- (étoiles) -----------------------*/
+
+.starline-populaire1,
+.starline-populaire2,
+.starline-populaire3 {
+  padding-top: 55px;
+  font-size: 0.8rem;
+  color: #0065fc;
+}
+
+/* ---------------------------(hébergements à marseille)-------------------*/
+
+/* -----------------------------(ensemble des 6 photos) -----------------*/
+
+.boite-marseille {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: auto;
+}
+/* -------------------------(titre marseille) -------------------------------*/
+.titre-marseille {
+  margin-left: -1%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+/* ---------------------------- (1ère photo: auberge de la cannebière)-------------------*/
+
+/* -----------------------(ensemble photo et texte)--------------------*/
+
+.auberge-cannebiere,
+.hotel-port,
+.hotel-mouettes,
+.hotel-mer,
+.auberge-panier,
+.hotel-amina {
+  border-radius: 15px;
+  justify-content: center;
+  height: 180px;
+  width: 300px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px#f2f2f2;
+  border: 5px solid white;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ---------------------------------------(photos) ---------------------------*/
+
+.image-cannebiere,
+.image-port,
+.image-mouettes,
+.image-mer,
+.image-panier,
+.image-amina {
+  height: 100px;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+/* -------------------------------(texte des photos)-------------------------*/
+
+.ensemble1,
+.ensemble2,
+.ensemble3,
+.ensemble4,
+.ensemble5,
+.ensemble6 {
+  width: 100%;
+  height: 100px;
+}
+
+/* ---------------------------(titres et sous titres) ------------------------*/
+
+.titre1,
+.titre2,
+.titre3,
+.titre4,
+.titre5,
+.titre6 {
+  margin-left: 3%;
+  margin-top: 0.5%;
+}
+
+.sous-titre1,
+.sous-titre2,
+.sous-titre3,
+.sous-titre4,
+.sous-titre5,
+.sous-titre6 {
+  margin-left: 3%;
+  font-weight: normal;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+/* ------------------------------(étoiles)----------------------- */
+
+.starline1,
+.starline2,
+.starline3,
+.starline4,
+.starline5,
+.starline6 {
+  margin-left: 3%;
+  font-size: 0.8rem;
+  margin-top: 3%;
+}
+
+#star1-5,
+#star2-5,
+#star5-5 {
+  color: rgba(128, 128, 128, 0.466);
+}
+
+.starline1,
+.starline2,
+.starline3,
+.starline4,
+.starline5,
+.starline6 {
+  color: #0065fc;
+}
+
+/* --------------------------- (liens et over)-------------------------*/
+
+.lien1:hover,
+.lien2:hover,
+.lien3:hover,
+.lien4:hover,
+.lien5:hover,
+.lien6:hover {
+  transition: 0.3s;
+  color: #0065fc;
+}
+
+.lien1,
+.lien2,
+.lien3,
+.lien4,
+.lien5,
+.lien6 {
+  color: black;
+  text-decoration: none;
+}
+
+/* --------------------------(bouton afficher)--------------------------*/
+
+.afficher,
+.lien-afficher {
+  font-family: RalewayBold;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.afficher {
+  margin-left: 10px;
+}
