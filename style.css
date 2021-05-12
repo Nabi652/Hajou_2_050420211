@@ -590,3 +590,88 @@ h1 + p {
 .afficher {
   margin-left: 10px;
 }
+/*--------------------(activités à marseille)------------------------ */
+
+/* ----------------- boite activités à marseille --------------------------*/
+
+.child3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+/*----------------------(titre marseille) ------------------------*/
+
+.titre-principal-activites {
+  font-size: large;
+  margin-left: 32px;
+  margin-bottom: 25px;
+}
+
+/* ----------------------------(ensemble photos et texte activités à marseille)------------------- */
+
+.vieux-port,
+.fort-pomegues,
+.iles-frioul,
+.calanques,
+.dame-garde,
+.parc-longchamp {
+  border: 1px solid white;
+  box-shadow: 0px 8px 8px #f2f2f2;
+  height: 145px;
+  width: 300px;
+  border-radius: 15px 15px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+/* ----------------------------(photos activités à marseille)------------------- */
+
+.image-vieux-port,
+.image-pomegues,
+.image-iles-frioul,
+.image-calanques,
+.image-dame-garde,
+.image-parc-longchamp {
+  height: 110px;
+  width: 300px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+}
+
+/* ------------------------- titre des cartes -----------------------------*/
+.titre-vieux-port,
+.titre-fort-pomegues,
+.titre-iles-frioul,
+.titre-parc-calanques,
+.titre-dame-garde,
+.titre-parc-longchamp {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+/* --------------------------------over ----------------------------*/
+
+.lien10:hover,
+.lien11:hover,
+.lien12:hover,
+.lien13:hover,
+.lien14:hover,
+.lien15:hover {
+  transition: 0.3s;
+  color: #0065fc;
+  display: inline-block;
+}
+
+.lien10,
+.lien11,
+.lien12,
+.lien13,
+.lien14,
+.lien15 {
+  color: black;
+  text-decoration: none;
+}
