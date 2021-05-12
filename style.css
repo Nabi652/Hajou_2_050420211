@@ -308,6 +308,7 @@ h1 + p {
   color: var(--main-bg-blue);
   align-self: flex-start;
 }
+
 /* -------------------------------(inversement des boites "les plus populaires" et "hébergements à marseille")---------------------- */
 
 .box-heberg-marseille-et-populaires {
@@ -590,6 +591,7 @@ h1 + p {
 .afficher {
   margin-left: 10px;
 }
+
 /*--------------------(activités à marseille)------------------------ */
 
 /* ----------------- boite activités à marseille --------------------------*/
@@ -675,6 +677,7 @@ h1 + p {
   color: black;
   text-decoration: none;
 }
+
 /* -------------------------(footer)---------------------------------*/
 
 /* ---------------------------(ensemble des 3)----------------------------*/
@@ -854,6 +857,7 @@ footer ul {
   .afficher {
     margin-left: 3%;
   }
+
   /* ---------------------------- boite activités à marseille ------------------------------*/
 
   .child3 {
@@ -1036,6 +1040,7 @@ footer ul {
   .fa-info + h5 {
     font-weight: normal;
   }
+
   /* ------------------------------ LA boite hébergements à marseille et les plus populaires ----------------------*/
 
   .box-heberg-marseille-et-populaires {
@@ -1127,6 +1132,7 @@ footer ul {
   .starline-populaire3 {
     padding-top: 40px;
   }
+
   /* --------------------------activités à marseille-----------------------------*/
 
   /* ----------------------------- titre principal activités -----------------------------*/
