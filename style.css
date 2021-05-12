@@ -1036,4 +1036,95 @@ footer ul {
     .fa-info + h5 {
       font-weight: normal;
     }
+/* ------------------------------ LA boite hébergements à marseille et les plus populaires ----------------------*/
+
+.box-heberg-marseille-et-populaires {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  /* -------------------------------------------------- LES boites hébergements et les plus populaires -----------------------*/
+
+  .boite-les-plus-populaires {
+    width: 30%;
+    margin: 0;
+    border-radius: 15px;
+  }
+
+  .boite-marseille {
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin-left: 0;
+  }
+
+  /* -------------------------------------------- les 6 photos des hébergements à marseille -----------------------------*/
+
+  .ensemble-6-photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 33px;
+  }
+
+  /* --------------------------------titre hébergements à marseille ---------------------------------*/
+
+  h4.titre-marseille {
+    margin-left: 20px;
+    margin-top: 16px;
+  }
+
+  /* --------------------------------titre les plus populaires à marseille ---------------------------------*/
+
+  h4.titre-populaire {
+    margin-top: 0;
+  }
+
+  /* ----------------------------- icone progression ----------------------------*/
+
+  .fa-chart-line {
+    margin-left: -50px;
+  }
+
+  /* ------------------------------------------------------- ensemble hébergements à Marseille ---------------------------------*/
+
+  .ensemble1,
+  .ensemble2,
+  .ensemble3,
+  .ensemble4,
+  .ensemble5,
+  .ensemble6 {
+    height: 76px;
+    background-color: white;
+  }
+
+  .auberge-cannebiere,
+  .hotel-port,
+  .hotel-mouettes,
+  .hotel-mer,
+  .auberge-panier,
+  .hotel-amina {
+    width: 240px;
+  }
+
+  /*-------------------------(les 3 photos: hotel le soleil du matin/ hotel au coeur de l'eau / hotel tout bleu&blanc)---------------------- */
+
+  .image-soleil-du-matin,
+  .image-au-coeur-eau,
+  .image-bleu-blanc {
+    width: 130px;
+  }
+
+  .hotel-soleil-du-matin,
+  .hotel-au-coeur-eau,
+  .hotel-bleu-blanc {
+    width: 330px;
+  }
+
+  .starline-populaire2 {
+    padding-top: 25px;
+  }
+
+  .starline-populaire3 {
+    padding-top: 40px;
+  }
   
