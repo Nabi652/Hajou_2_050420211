@@ -719,3 +719,139 @@ footer ul {
 .box-assistance {
   padding-bottom: 20px;
 }
+
+/* media query ------------------ IPAD -------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* ----------------------------------------- boite les plus populaires----------------------------------*/
+  
+    .boite-les-plus-populaires {
+      height: 340px;
+    }
+  
+    /* ----------------------------- (ensemble des 3 photos)---------------------------*/
+  
+    .ensemble-3-photos {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    /* ----------------------------------- (ensemble photo et texte)----------------------*/
+  
+    .lien7,
+    .lien8,
+    .lien9 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    /* --------------------------------(margin-top de l'ensemble : hotel soleil du matin)-------------------*/
+  
+    .hotel-soleil-du-matin {
+      margin-top: 0;
+    }
+  
+    /* ----------------------------- taille des ensembles photos et texte ----------------------------*/
+  
+    .hotel-soleil-du-matin,
+    .hotel-au-coeur-eau,
+    .hotel-bleu-blanc {
+      height: 230px;
+      width: 230px;
+    }
+  
+    /* --------------------------------- taille des photos --------------------------------*/
+  
+    .image-soleil-du-matin,
+    .image-au-coeur-eau,
+    .image-bleu-blanc {
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 0;
+      width: 230px;
+    }
+  
+    /*  -----------------------------------------taille des titres ---------------------------------*/
+  
+    .titres-stars1,
+    .titres-stars2,
+    .titres-stars3 {
+      width: auto;
+      height: 78px;
+      display: block;
+    }
+  
+    /* ----------------------------------------- ligne des étoiles ---------------------------*/
+  
+    .starline-populaire1,
+    .starline-populaire2,
+    .starline-populaire3 {
+      display: inline;
+      margin-top: 10px;
+    }
+  
+    /* -----------------------------(titre marseille)--------------------------*/
+  
+    .titre-marseille {
+      margin-left: 3%;
+    }
+  
+    /* ------------------------------------ (icône info)---------------------------------*/
+  
+    .fa-info {
+      align-self: center;
+    }
+  
+    /* -------------------------(boite hébergements à marseille et les + populaires)------------------------*/
+  
+    .box-heberg-marseille-et-populaires {
+      display: flex;
+    }
+  
+    /* -------------------------------------- (boite des 6 photos)--------------------------------*/
+  
+    .ensemble-6-photos {
+      display: grid;
+      grid-template-columns: 31.3% 33.3% 33.3%;
+      grid-template-rows: 250px 250px;
+      justify-items: center;
+      /*border: 1px solid blue;*/
+      width: auto;
+      margin-left: 10px;
+    }
+  
+    /* ------------------------------- boite marseille ---------------------------*/
+  
+    .boite-marseille {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    /* ------------------------ marge hotel de quelques photos -------------------*/
+  
+    .hotel-mouettes,
+    .hotel-amina {
+      margin-left: 20px;
+    }
+  
+    .hotel-port,
+    .auberge-panier {
+      margin-left: 15px;
+    }
+  
+    /* -----------------------(ensemble photos et texte)--------------------*/
+  
+    .auberge-cannebiere,
+    .hotel-port,
+    .hotel-mouettes,
+    .hotel-mer,
+    .auberge-panier,
+    .hotel-amina {
+      width: 230px;
+    }
+  
+    /* -------------------------------------- bouton afficher ---------------------------*/
+  
+    .afficher {
+      margin-left: 3%;
+    }
+  
