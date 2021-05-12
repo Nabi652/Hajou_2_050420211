@@ -675,3 +675,47 @@ h1 + p {
   color: black;
   text-decoration: none;
 }
+/* -------------------------(footer)---------------------------------*/
+
+/* ---------------------------(ensemble des 3)----------------------------*/
+
+.child4 {
+  background-color: #f2f2f2;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* ------------------------------(liste du footer)-------------------------*/
+
+footer ul {
+  list-style-type: none;
+}
+
+/* -----------------------------(padding bottom des trois boites)-------------------------*/
+
+.a-propos0,
+.nos-hebergements0,
+.assistance0 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/* --------------------------------------(padding bottom des lignes)--------------------------*/
+
+.a-propos1,
+.a-propos2,
+.nos-hebergements1,
+.assistance1 {
+  padding-bottom: 10px;
+}
+
+.a-propos3,
+.nos-hebergements2 {
+  padding-bottom: 25px;
+}
+
+/* ----------------------------------padding bottom de la dernière boite-------------------------*/
+
+.box-assistance {
+  padding-bottom: 20px;
+}
