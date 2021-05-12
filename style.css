@@ -725,7 +725,7 @@ footer ul {
 
 /* media query ------------------ IPAD -------------------------------*/
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   /* ----------------------------------------- boite les plus populaires----------------------------------*/
 
   .boite-les-plus-populaires {
@@ -865,6 +865,8 @@ footer ul {
     width: auto;
     justify-content: space-between;
     margin-bottom: 4%;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /* --------------------------- titre activités marseille -------------------------------*/
@@ -929,9 +931,10 @@ footer ul {
     justify-content: space-between;
   }
 }
+
 /* -----------------------------version desktop-------------------------------*/
 
-@media (min-width: 1025px) {
+@media (min-width: 1400px) {
   /* ------------------------- centrer le site à 85% de la page sauf footer -----------------*/
 
   .site-entier {
