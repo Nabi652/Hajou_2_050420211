@@ -1,0 +1,310 @@
+@font-face {
+  font-family: Raleway;
+  src: url(./assets/font/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "RalewayBold";
+  src: url(./assets/font/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: RalewayXBold;
+  src: url(./assets/font/Raleway-ExtraBold.ttf);
+}
+/* --------------------------- (variable couleurs) ------------------------*/
+
+:root {
+  --main-bg-gray: #f2f2f2;
+  --main-bg-blue: #0065fc;
+  --main-bg-blue-light: #deebff;
+  --main-bg-violet: #8a63dd;
+}
+
+/* ----- tous les éléments avant et après * ne dépasseront pas de leur contenu etont une marge+padding :0-------- */
+
+*,
+::after,
+::before {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway;
+  width: 100%;
+}
+
+/* ---------------------------------- (menu nav et logo reservia) -------------------------------------*/
+
+.menu {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: large;
+  margin: 0 0 30px;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 81px 50px;
+  grid-template-columns: 50% 50%;
+  border-bottom: 1px solid var(--main-bg-gray);
+}
+
+.logo-reservia {
+  width: 100px;
+}
+
+.menu3 {
+  color: var(--main-bg-blue);
+  text-decoration: none;
+}
+
+.menu1,
+.menu2 {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------------ menu logo---------------------------------------*/
+
+.menu li:nth-child(1) {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+  padding: 0 15px;
+  display: grid;
+  align-content: center;
+}
+
+/* --------------------------------------- menu hébergements --------------------------- */
+.menu li:nth-child(2) {
+  grid-column: 1/2;
+  grid-row: 2/2;
+  width: 100%;
+  height: 50px;
+}
+
+/* ---------------------------------------- menu activités-------------------------------*/
+
+.menu li:nth-child(3) {
+  grid-column: 2/2;
+  grid-row: 2/2;
+  width: 100%;
+  height: 50px;
+}
+
+/* ---------------------------------------- menu s'inscrire -------------------------------*/
+
+.menu li:nth-child(4) {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  padding: 0 15px;
+  justify-self: end;
+  align-self: center;
+  font-family: RalewayBold;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+/* -------------------------------- rollover ----------------------------------------*/
+
+.menu1:hover,
+.menu2:hover {
+  border-bottom: 3px solid #0065fc;
+  color: var(--main-bg-blue);
+}
+
+/* -----------------------------------------(titre H1) -------------------------------------------*/
+
+h1 {
+  font-size: large;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+h1 + p {
+  padding: 10px 15px 0;
+}
+
+/* -------------------------(barre de recherches)-------------------------------------- */
+
+.flexForm {
+  max-width: 350px;
+  height: 50px;
+  margin: 25px 15px;
+  font-size: larger;
+  display: flex;
+  position: relative;
+}
+
+.flexForm label {
+  width: 50px;
+  height: 100%;
+  background: var(--main-bg-gray);
+  border-radius: 15px 0 0 15px;
+  display: flex;
+}
+
+/* ------------------------- icône position ---------------------------------*/
+
+#position {
+  margin: auto;
+}
+
+/* --------------------------------- input-------------------------------*/
+
+#search {
+  width: 83%;
+  padding-left: 10px;
+  font-size: large;
+  color: black;
+  border-radius: 0;
+  outline: none;
+  border: 1px solid var(--main-bg-gray);
+}
+
+/* -------------------------------- bouton recherche -----------------------------*/
+
+.flexForm button {
+  width: 55px;
+  height: 50px;
+  background: var(--main-bg-blue);
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 1000000;
+  right: 0;
+  cursor: pointer;
+}
+
+/* --------------------------- icone loupe -------------------------------- */
+
+.fa-search {
+  font-size: 18px;
+  color: white;
+}
+
+@media (min-width: 585px) {
+  #search {
+    width: 89%;
+  }
+}
+
+/* ------------------------------ (filtres)--------------------------------- */
+
+.filtre {
+  max-width: 471px;
+  padding: 0 15px;
+  display: grid;
+  font-size: large;
+  grid-template-columns: 50% 47%;
+  grid-template-rows: 25px 50px 50px 50px;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+/* ---------------------- tous les filtres --------------------------*/
+
+.filtre button {
+  max-width: 171px;
+  font-size: medium;
+  border-radius: 70px;
+  border: 2px solid #f2f2f2;
+  background: white;
+  color: #0065fc;
+  position: relative;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* ------------------------------ bouton économique --------------------------*/
+
+.filtre button:nth-child(2) {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+/* ---------------------- bouton familial ------------------------------------*/
+
+.filtre button:nth-child(3) {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+/* -------------------- bouton romantique ------------------------------*/
+
+.filtre button:nth-child(4) {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+
+/* -----------------------------------bouton animaux --------------------------*/
+
+.filtre button:nth-child(5) {
+  width: 125%;
+  max-width: 219px;
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+
+/* ---------------------------- icone/image des filtre -----------------------------*/
+
+.filtre .img {
+  height: 50px;
+  width: 51px;
+  background-color: #deebff;
+  border-radius: 50%;
+  /* clip-path: circle(46%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: 9px;
+}
+
+.filtre a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* ------------------------------ (hover)----------------------------- */
+
+.filtre button:hover {
+  transition: 0.3s;
+  color: black;
+}
+
+/* ---------------------- (phrase info) ------------------------------- */
+
+.icone-info {
+  display: flex;
+  column-gap: 10px;
+  height: 40px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.fa-info {
+  height: 20px;
+  width: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  color: var(--main-bg-blue);
+  align-self: flex-start;
+}
